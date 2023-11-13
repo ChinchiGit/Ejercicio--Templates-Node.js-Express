@@ -1,0 +1,16 @@
+doctype html
+html
+   head
+      title = "Hola, soy tu Location"
+      link(rel='stylesheet', type='text/css', href='/styles.css')
+   body
+        header 
+            h1 Location  
+            nav 
+                include ./nav.pug
+        main 
+            h2 Estas en la seccion Location y por eso hay un mapa falso!
+            img(src="/assets/images/mapaGalaxia.jpg")
+        footer 
+            include ./footer.pug
+        script(src='/script.js') 

@@ -1,0 +1,18 @@
+doctype html
+html
+   head
+      title = "Hola, soy mission"
+      link(rel='stylesheet', type='text/css', href='/styles.css')
+   body
+        header 
+            h1 Mission 
+            nav 
+                include ./nav.pug
+        main 
+            h2 Nuestra misión: 
+            p Te contamos con un podo de Loren Ipsum a que nos dedicamos: 
+            p#lorem Lorem ipsum dolor sit amet consectetur adipiscing elit primis, urna class integer condimentum blandit himenaeos pulvinar, laoreet nisl per lacinia semper mus libero. Habitant senectus sociis nec dictum turpis per libero, platea augue tempus magna et cubilia phasellus bibendum, mi gravida purus primis sagittis nulla. Fusce lobortis senectus sollicitudin fringilla erat pretium malesuada felis eros auctor vestibulum, eu arcu ante dictum luctus aliquam nulla maecenas semper nullam, interdum odio vulputate eleifend class primis dapibus scelerisque quam lacus.
+
+        footer 
+                include ./footer.pug
+        script(src='/script.js') 

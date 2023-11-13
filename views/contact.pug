@@ -1,0 +1,23 @@
+doctype html
+html
+   head
+      title = "Hola, soy tu Contact"
+      link(rel='stylesheet', type='text/css', href='/styles.css')
+   body
+        header 
+            h1 Contact 
+            nav 
+                include ./nav.pug
+        main 
+            section(id="primera")
+                h2 Nos puedes mandar un mensaje de mentira por aquí!
+
+                textarea(name="sugerencias" id="sugerencias" cols="30" rows="10" required)
+                |
+                button(id="enviar" clas="button") Enviar
+            section(id="segunda" class="esconde")
+                img(src="/assets/images/vader.jpg", alt="Darth Vader" id="vader")
+                h2 El Supremo Comandante ha recibido tu mensaje.
+        footer 
+            include ./footer.pug
+        script(src='/script.js') 

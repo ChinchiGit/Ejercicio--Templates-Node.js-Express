@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Stars1;
+    src: url("./assets/fonts/Starjedi.ttf");
+}
+
+@font-face {
+    font-family: Stars2;
+    src: url("./assets/fonts/Starjhol.ttf");
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+  }
+
+header {
+    background-image: url("./assets/images/ligth.jpeg");
+    background-size: contain;
+}
+
+header>h1{
+    text-align: center;
+    font-family: Stars2;
+    color:rgb(213, 177, 0);
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(213, 177, 0, 0.7);
+    border-radius:30px;
+    width:80%;
+    margin: auto;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main>p{
+    text-align: left;
+}
+
+img {
+    width: 70%;
+    border-radius:15px;
+    margin: 20px;
+}
+
+
+
+ul,
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+    font-family: Stars1;
+}
+
+footer{
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+}
+
+.button {
+    min-height: 40px;
+    width: 300px;
+    margin: 25px;
+
+}
+
+
+
+#lorem{
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-right: 3%;
+    width: auto;
+    font-style: italic;
+    text-align: right;
+    padding: 20px;
+
+}
+
+.esconde{
+    display: none; 
+}
+
+#vader{
+    border-radius: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin:auto
+}

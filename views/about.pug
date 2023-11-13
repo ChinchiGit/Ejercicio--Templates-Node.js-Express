@@ -1,0 +1,23 @@
+doctype html
+html
+   head
+      title = "Hola, soy tu About"
+      link(rel='stylesheet', type='text/css', href='/styles.css')
+   body
+        header
+            h1 About  
+            nav 
+                include ./nav.pug
+     
+        main 
+             
+            h2 Aqui deberíamos contarte algo sobre nosotros. Por ejemplo, un poco de Loren Ipsum:
+            p#lorem Lorem ipsum dolor sit amet consectetur adipiscing elit primis, urna class integer condimentum blandit himenaeos pulvinar, laoreet nisl per lacinia semper mus libero. Habitant senectus sociis nec dictum turpis per libero, platea augue tempus magna et cubilia phasellus bibendum, mi gravida purus primis sagittis nulla. 
+            p Y ahora, si pinchas en el boton verás nuestra foto. Si te cansas, vuelve a pinchar y desaparecemos.
+
+            button(type='button' id='escondeMuestra' class="button") Pincha aquí
+            img(src='/assets/images/stormtrooper.jpg' alt='stormtrooper' id='tomando' class='esconde')
+        footer 
+            include ./footer.pug
+        script(src='/script.js')
+        

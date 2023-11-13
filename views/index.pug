@@ -1,0 +1,18 @@
+doctype html
+html
+   head
+      title = "Hola, soy tu Home"
+      link(rel='stylesheet', type='text/css', href='/styles.css')
+   body
+        header 
+            h1 Home 
+            nav 
+                include ./nav.pug
+
+        main 
+            h2 Bienvenido a esta práctica pug-express!
+            p Somos STROMTROOPERS, los mas majetes de LA GALAXIA y nos dedicamos a mantener el orden, que hay por ahí mucho golfo.
+            img(src='/assets/images/empire.jpg') 
+        footer 
+            include ./footer.pug
+        script(src='/script.js') 
